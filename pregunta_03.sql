@@ -27,6 +27,6 @@ SELECT
 FROM
     tbl1
 LIMIT
-    2
+    5
 ORDER BY
     c14;
