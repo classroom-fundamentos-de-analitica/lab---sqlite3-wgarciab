@@ -22,3 +22,11 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
+SELECT
+    *
+FROM
+    tbl1
+LIMIT
+    2
+ORDER BY
+    c14;
