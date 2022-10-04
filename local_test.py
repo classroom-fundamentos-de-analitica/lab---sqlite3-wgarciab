@@ -16,7 +16,7 @@ def load_data():
     return conn, cur
 
 conn, _ = load_data()
-with open("pregunta_12.sql", encoding="utf-8") as file:
+with open("pregunta_14.sql", encoding="utf-8") as file:
     query = file.read()
 result = pd.read_sql_query(query, conn).to_dict()
 
