@@ -29,4 +29,4 @@ FROM
 LIMIT
     5
 ORDER BY
-    c14;
+    c14 ASC;
